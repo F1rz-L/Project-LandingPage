@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Kantin</title>
         <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="eksperimen.css" />
     </head>
     <body class="">
         <nav class="navbar navbar-expand-lg sticky-top fw-bold py-2 px-4" id="navbar">
@@ -29,7 +29,19 @@
                 </div>
             </div>
         </nav>
-        <div class="container">
+
+        <!-- Carousel Eksperimental -->
+        <div class="wrapper container">
+            <div class="item" style="--n: 1; background: url(images/bakso.jpg); background-size: cover"></div>
+            <div class="item" style="--n: 2; background: url(images/esJeruk.jpeg); background-size: cover"></div>
+            <div class="item" style="--n: 3; background: url(images/mie-ayam.jpg); background-size: cover"></div>
+            <div class="item" style="--n: 4; background: url(images/esDawet.jpg); background-size: cover"></div>
+            <div class="item" style="--n: 5; background: url(images/soto.jpg); background-size: cover"></div>
+            <div class="item" style="--n: 6; background: url(images/esTeh.jpeg); background-size: cover"></div>
+        </div>
+
+        <!-- Carousel Bootstrap -->
+        <div class="container mt-5">
             <div id="carouselIndicator" class="carousel slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselIndicator" data-bs-slide-to="0" class="active"></button>
@@ -59,9 +71,6 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </div>
-        <div>
-            
         </div>
         <script src="/bootstrap/js/bootstrap.min.js" async defer></script>
     </body>
