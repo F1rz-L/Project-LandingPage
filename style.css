@@ -35,3 +35,9 @@
     width: 85svw;
     height: 85svh;
 } */
+
+
+footer{
+    margin-top:3rem;
+    background-color: rgb(250, 245, 238);
+}
