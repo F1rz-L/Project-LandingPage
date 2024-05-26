@@ -90,10 +90,18 @@
     color: #117964;
     font-weight: 700;
   }
-
+  .food-img{
+    cursor: pointer;
+    transition: transform ease-in-out 0.3s;
+  }
+  
+  .food-img:hover {
+    transform: scale(1.04);
+  }
 
 footer{
 
     margin-top:3rem;
     background-color: rgb(250, 245, 238);
 }
+
