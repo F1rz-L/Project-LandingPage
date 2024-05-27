@@ -1,5 +1,10 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    overflow-x: clip;
 }
 
 .navbar-toggler .navbar-toggler-icon {
@@ -37,7 +42,7 @@
 } */
 
 #food-menu {
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 
 .food-menu-heading {
@@ -54,7 +59,7 @@
 }
 
 .food-menu-container img {
-    display: block;
+    /* display: block; */
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -90,6 +95,7 @@
     font-weight: 700;
 }
 .food-img {
+    border-radius:100%;
     cursor: pointer;
     transition: transform ease-in-out 0.3s;
 }
@@ -127,7 +133,6 @@ footer {
     top: 0;
     width: 50svw;
     height: 100%;
-    z-index: 0;
     object-fit: cover;
 }
 
@@ -135,5 +140,20 @@ footer {
     height:25px;
     width:25px;
     padding:5px;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(74deg) brightness(103%) contrast(102%);
+    filter: invert(100%);
+}
+
+#food-cart{
+    position:sticky;
+    left: 90%;
+    top:70% ;
+    border-radius:50%;
+    cursor:pointer;
+    height:70px;
+    width:70px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 7px 0;
 }
