@@ -146,7 +146,7 @@ footer {
 #food-cart{
     position:sticky;
     left: 90%;
-    top:70% ;
+    top:73% ;
     border-radius:50%;
     cursor:pointer;
     height:70px;
@@ -156,4 +156,21 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 0 0 7px 0;
+}
+
+#section-card{
+    width: 100%;
+    margin: 0 10% 0 30%;
+    
+}
+
+#card{
+    background-color: #8A9EA0;
+}
+
+#button-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
 }
